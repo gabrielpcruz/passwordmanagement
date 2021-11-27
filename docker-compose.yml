@@ -3,7 +3,7 @@ services:
   webserver:
     build:
       context: ./config/docker
-    container_name: webserver-npf
+    container_name: passwordmanagement
     restart: on-failure
     expose:
       - '9000'
